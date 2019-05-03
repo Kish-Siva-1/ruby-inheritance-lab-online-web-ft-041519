@@ -10,4 +10,8 @@ class Student < User
     @knowledge << input 
   end 
   
+  def knowledge 
+    @knowledge 
+  end 
+  
 end
